@@ -10,7 +10,7 @@ import renderer from 'react-test-renderer'
 //})
 
 
-test('renders text MickeyMouse', () => {
+test('renders text CapitanAmerica', () => {
   render(<App />)
   const nameElement = screen.getByText(/Capitan America/i)
   expect(nameElement).toBeInTheDocument()
